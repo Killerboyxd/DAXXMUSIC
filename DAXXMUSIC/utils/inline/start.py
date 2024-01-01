@@ -30,7 +30,8 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_[sᴜᴘᴘᴏʀᴛ], url=f"https://t.me/the_friendz"),
-            InlineKeyboardButton(text=_[ʀᴇᴘᴏ], url=f"https://t.me/roy_editx"),
+            InlineKeyboardButton(text=_[ʀᴇᴘᴏ], url=f"https://telegra.ph/file/e7196953649136d3f9b68.mp4"),
+        ],
         [
             InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper"),
         ],
