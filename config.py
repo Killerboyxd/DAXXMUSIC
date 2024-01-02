@@ -12,13 +12,13 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "roy_editx")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "MR_OREO2")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "NykaaxBot")
+BOT_USERNAME = getenv("BOT_USERNAME", "JAY_SHREE_RAMBOT")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "NYKAA MUSIC")
+BOT_NAME = getenv("BOT_NAME", "OREO MUSIC")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "NYKAA_ASS")
+ASSUSERNAME = getenv("ASSUSERNAME", )
 EVALOP = list(map(int, getenv("EVALOP", "6195725562").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sanasomani786:TJgADfpkI1XVUkKt@cluster0.ruhyad9.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
@@ -46,8 +46,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/roy_editx")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/the_friendz")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MR_KISHAN_DPZ_ZONE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FRIEND_HUB1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -59,7 +59,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b582008
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 100))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 10000))
 
 
 # Telegram audio and video file size limit (in bytes)
