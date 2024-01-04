@@ -12,24 +12,24 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "MR_OREO2")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_SABKA_BHAI_KILLER_ll")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "JAY_SHREE_RAMBOT")
+BOT_USERNAME = getenv("BOT_USERNAME", "ll_H_U_N_G_A_M_A_BOT")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "OREO MUSIC")
+BOT_NAME = getenv("BOT_NAME", "❤️‍🩹ᯓ𝐇𝐔𝐍𝐆𝐀𝐌𝐀 °‌⋆𓆩᪵🜲𓆪̥")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME", )
-EVALOP = list(map(int, getenv("EVALOP", "6195725562").split()))
+EVALOP = list(map(int, getenv("EVALOP", "5505030156").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sanasomani786:TJgADfpkI1XVUkKt@cluster0.ruhyad9.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Iamdevilxop:Royal9011@cluster0.znqbh.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001929735324))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001597681978))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6195725562"))
+OWNER_ID = int(getenv("OWNER_ID", "5505030156"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,15 +39,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Rksoni-p/DAXXMUSIC",
+    "https://github.com/Killerboyxd/DAXXMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MR_KISHAN_DPZ_ZONE")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FRIEND_HUB1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/do_dil_ek_jaan143")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+mypqRMIsAhphYWRl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -85,10 +85,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
+    "START_IMG_URL", ""https://telegra.ph/file/230a240669f5a1fa1a762.jpg
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/29bf663a3b91c7e0086bc.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/f627873ed3dc636243f81.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/2abd798099b17a5a9b2fb.jpg"
